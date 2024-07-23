@@ -1,0 +1,26 @@
+.card {
+  height: 22rem;
+  flex: 1;
+  padding-top: 4.8rem;
+  padding-left: 3.2rem;
+  background: var(--neutral-02);
+}
+
+.title {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 140%;
+  color: var(--neutral-07);
+
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 171%;
+  color: var(--neutral-04);
+}

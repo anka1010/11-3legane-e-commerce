@@ -1,0 +1,30 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart:first-child {
+  margin-right: 2px;
+}
+
+.cartItems {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

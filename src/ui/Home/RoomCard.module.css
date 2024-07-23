@@ -1,0 +1,26 @@
+.card {
+  position: relative;
+}
+
+.cardCaption {
+  position: absolute;
+  top: 4.8rem;
+  left: 4.8rem;
+}
+
+.small {
+  top: auto;
+  left: 3.2rem;
+  bottom: 4rem;
+}
+
+.cardName {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 3.4rem;
+  line-height: 112%;
+  letter-spacing: -0.02em;
+  color: var(--neutral-07);
+
+  margin-bottom: 1.2rem;
+}

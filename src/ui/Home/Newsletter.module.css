@@ -1,0 +1,73 @@
+.newsletter {
+  max-width: 144rem;
+  margin-inline: auto;
+  height: 36rem;
+  margin-top: 8rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10.1rem;
+
+  background-image: url("/img/newsletter.jpg");
+}
+
+.title {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: var(--neutral-07);
+}
+
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  text-align: center;
+  color: var(--neutral-07);
+
+  margin-top: 0.8rem;
+}
+
+.form {
+  height: 5.2rem;
+  margin-top: 3.2rem;
+  border-bottom: 1px solid var(--neutral-04-08);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.input {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: -0.03em;
+  color: var(--neutral-04);
+
+  width: 42.8rem;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: -0.03em;
+  color: var(--neutral-04);
+
+  width: 5.2rem;
+  height: 2.8rem;
+}

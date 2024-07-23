@@ -1,0 +1,12 @@
+.cards {
+  height: 66.4rem;
+  margin-top: 4rem;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
