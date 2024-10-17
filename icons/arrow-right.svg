@@ -1,5 +1,13 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4.16666 10H15.8333" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.8333 15L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.8333 5L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <g id="path144" transform="matrix(-1,0,0,1,32,0)">
+        <path d="M6.667,16L25.333,16" style="fill:none;fill-rule:nonzero;stroke:rgb(108,114,117);stroke-width:2px;"/>
+    </g>
+    <g id="path146" transform="matrix(-1,0,0,1,32,0)">
+        <path d="M6.667,16L14.667,24" style="fill:none;fill-rule:nonzero;stroke:rgb(108,114,117);stroke-width:2px;"/>
+    </g>
+    <g id="path148" transform="matrix(-1,0,0,1,32,0)">
+        <path d="M6.667,16L14.667,8" style="fill:none;fill-rule:nonzero;stroke:rgb(108,114,117);stroke-width:2px;"/>
+    </g>
 </svg>
