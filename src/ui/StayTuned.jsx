@@ -1,4 +1,4 @@
-import styles from "./StayTuned.module.css";
+import styles from "./StayTuned.module.scss";
 
 function StayTuned() {
   return (

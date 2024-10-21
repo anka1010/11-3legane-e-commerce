@@ -1,0 +1,29 @@
+.cards {
+  height: 66.4rem;
+  margin-top: 4rem;
+  display: flex;
+  gap: 2.4rem;
+
+  @include tablet {
+    height: 100%;
+    gap: 1.4rem;
+  }
+
+  @include phone {
+    height: unset;
+    margin-top: 4rem;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include phone {
+    gap: 1.6rem;
+    justify-content: unset;
+  }
+}

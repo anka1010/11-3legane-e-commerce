@@ -1,0 +1,22 @@
+.link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: -0.03em;
+  color: var(--neutral-07);
+  border-bottom: 1px solid;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+
+  @include phone {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+
+  svg {
+    stroke: var(--neutral-07);
+  }
+}

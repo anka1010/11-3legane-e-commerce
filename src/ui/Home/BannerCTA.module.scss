@@ -1,0 +1,86 @@
+.banner {
+  height: 53.2rem;
+  margin-top: 4.8rem;
+  background: var(--neutral-02);
+
+  display: flex;
+  align-items: center;
+
+  @include tabletPortrait {
+    height: object-fit;
+  }
+
+  @include phone {
+    height: unset;
+    margin-top: 3.2rem;
+
+    display: block;
+  }
+}
+
+.image {
+  @include tabletPortrait {
+    max-width: 60%;
+  }
+}
+
+.content {
+  flex: 1;
+  padding-left: 7.2rem;
+
+  @include tabletPortrait {
+    padding-left: 4rem;
+  }
+
+  @include phone {
+    padding-inline: 3.2rem;
+    padding-block: 5.85rem;
+  }
+}
+
+.textContent {
+  max-width: 45.2rem;
+  margin-bottom: 2.4rem;
+
+  @include phone {
+    max-width: unset;
+  }
+}
+
+.sale {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--blue);
+
+  margin-bottom: 1.6rem;
+}
+
+.title {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 1.1;
+  letter-spacing: -0.6px;
+  color: var(--neutral-07);
+
+  margin-bottom: 1.6rem;
+
+  @include phone {
+    font-size: 3.4rem;
+  }
+}
+
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.6;
+  color: var(--neutral-07);
+
+  @include phone {
+    font-size: 1.6rem;
+  }
+}

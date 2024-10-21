@@ -1,8 +1,8 @@
-import styles from "./HomeHeader.module.css";
+import styles from "./HomeHeader.module.scss";
 
 function HomeHeader() {
   return (
-    <div className="container">
+    <div className="container-sm">
       <section className={styles.header}>
         <h1 className={styles.slogan}>
           Simply Unique<span className={styles.gray}>/</span> <br />

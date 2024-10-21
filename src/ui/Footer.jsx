@@ -1,21 +1,29 @@
 import { Link } from "react-router-dom";
-import styles from "./Footer.module.css";
+import styles from "./Footer.module.scss";
 import Logo from "./Logo";
-import Navigation from "./Navigation";
-import Button from "./Button";
-import ButtonLink from "./ButtonLink";
+import NavigationMenu from "./NavigationMenu";
 
 function Footer() {
+  const links = [
+    { to: "/", text: "Home" },
+    { to: "/shop", text: "Shop" },
+    { to: "/product", text: "Product" },
+    { to: "/blog", text: "Blog" },
+    { to: "/contact", text: "Contuct Us" },
+  ];
+
   return (
     <footer className={styles.footer}>
-      <div className="container">
+      <div className="container-sm">
         <div className={styles.topRow}>
           <div className={styles.topLeft}>
             <Logo type="light" />
             <div className={styles.divider}>&nbsp;</div>
             <p>Gift & Decoration Store </p>
           </div>
-          <Navigation type="light" />
+          <div className={styles.topRight}>
+            <NavigationMenu customStyles={styles} links={links} />
+          </div>
         </div>
         <div className={styles.bottomRow}>
           <div className={styles.bottomLeft}>
@@ -30,15 +38,15 @@ function Footer() {
             </Link>
           </div>
           <div className={styles.bottomRight}>
-            <ButtonLink to={"https://www.instagram.com"}>
-              <img src="/icons/instagram.svg" alt="Instagram icon" />
-            </ButtonLink>
-            <ButtonLink to={"https://www.facebook.com"}>
-              <img src="/icons/facebook.svg" alt="Facebook icon" />
-            </ButtonLink>
-            <ButtonLink to={"https://www.youtube.com"}>
-              <img src="/icons/youtube.svg" alt="Youtube icon" />
-            </ButtonLink>
+            <Link to={"https://www.instagram.com"}>
+              <img src="./icons/instagram.svg" alt="Instagram icon" />
+            </Link>
+            <Link to={"https://www.facebook.com"}>
+              <img src="./icons/facebook.svg" alt="Facebook icon" />
+            </Link>
+            <Link to={"https://www.youtube.com"}>
+              <img src="./icons/youtube.svg" alt="Youtube icon" />
+            </Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import ButtonLink from "../ButtonLink";
-import styles from "./RoomCard.module.css";
+import styles from "./RoomCard.module.scss";
 
 function RoomCard({ imgSrc, imgAlt, cardName, type = "" }) {
   return (

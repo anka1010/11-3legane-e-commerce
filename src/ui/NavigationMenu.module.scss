@@ -1,0 +1,27 @@
+.nav {
+  font-family: var(--third-family);
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.57;
+  color: var(--neutral-04);
+
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+
+  @include tablet {
+    gap: 2.5rem;
+  }
+
+  @include phone {
+    display: none;
+  }
+}
+
+.link {
+  color: var(--neutral-04);
+}
+
+.active {
+  color: var(--neutral-07);
+}

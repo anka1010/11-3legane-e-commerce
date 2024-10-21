@@ -1,0 +1,62 @@
+.promo {
+  position: relative;
+  background-color: var(--neutral-02);
+}
+
+.promoBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.promoText {
+  font-size: 1.4rem;
+  font-weight: 600;
+  height: 4rem;
+  color: var(--neutral-05);
+  margin-left: -2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+
+  @include phone {
+    font-size: 1.2rem;
+    margin-left: unset;
+    gap: 0.8rem;
+
+    img {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+  }
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1.6rem;
+
+  @include phone {
+    position: static;
+
+    img {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+  }
+}
+
+.link {
+  color: var(--blue);
+
+  svg {
+    stroke: var(--blue);
+  }
+
+  @include phone {
+    display: none;
+  }
+}

@@ -1,0 +1,47 @@
+.card {
+  height: 22rem;
+  flex: 1;
+  padding-top: 4.8rem;
+  padding-inline: 3.2rem;
+  background: var(--neutral-02);
+
+  @include tabletPortrait {
+    padding-top: 2.8rem;
+  }
+
+  @include phone {
+    height: 19.8rem;
+    padding-top: 3.2rem;
+    padding-inline: 1.6rem;
+  }
+}
+
+.title {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: var(--neutral-07);
+
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+
+  @include phone {
+    font-size: 1.4rem;
+    line-height: 1.57;
+    margin-bottom: 0.4rem;
+  }
+}
+
+.text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 171%;
+  color: var(--neutral-04);
+
+  @include phone {
+    font-size: 1.4rem;
+    line-height: 1.57;
+  }
+}

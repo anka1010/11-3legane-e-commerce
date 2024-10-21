@@ -1,5 +1,5 @@
 import { Form } from "react-router-dom";
-import styles from "./Newsletter.module.css";
+import styles from "./Newsletter.module.scss";
 import Button from "../Button";
 
 function Newsletter() {
@@ -10,7 +10,7 @@ function Newsletter() {
         Sign up for deals, new products and promotions
       </p>
       <Form className={styles.form}>
-        <img src="/icons/email.svg" alt="Email icon" className={styles.icon} />
+        <img src="./icons/email.svg" alt="Email icon" className={styles.icon} />
         <input
           type="text"
           placeholder="Email address"

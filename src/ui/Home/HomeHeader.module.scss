@@ -1,0 +1,49 @@
+.header {
+  margin-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include phone {
+    display: block;
+  }
+}
+
+.slogan {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 7.2rem;
+  line-height: 1.06;
+  color: var(--neutral-07);
+
+  @include phone {
+    font-size: 4rem;
+    line-height: 1.1;
+  }
+}
+
+.gray {
+  color: var(--neutral-04);
+}
+
+.description {
+  font-size: 16px;
+  color: var(--neutral-04);
+  line-height: 1.62;
+  max-width: 42.4rem;
+  margin-right: 2.9rem;
+
+  @include phone {
+    font-size: 1.4rem;
+    line-height: 1.57;
+
+    max-width: unset;
+    margin-right: unset;
+    margin-top: 1.6rem;
+  }
+}
+
+.bold {
+  color: var(--neutral-05);
+  font-weight: 600;
+}

@@ -1,9 +1,9 @@
 import ButtonLink from "../ButtonLink";
-import styles from "./NewArrivals.module.css";
+import styles from "./NewArrivals.module.scss";
 
 function NewArrivals() {
   return (
-    <div className="container">
+    <div className="container-sm">
       <section className={styles.newArrivals}>
         <div className={styles.header}>
           <h2 className={styles.title}>
@@ -15,7 +15,7 @@ function NewArrivals() {
 
         <div className={styles.carousel}>
           {/* ??? */}
-          <img src="/img/carousel/carousel__TEST.jpg" alt="" />
+          <img src="./img/carousel/carousel__TEST.jpg" alt="" />
         </div>
       </section>
     </div>

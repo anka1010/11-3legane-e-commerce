@@ -1,4 +1,4 @@
-import styles from "./ValueCard.module.css";
+import styles from "./ValueCard.module.scss";
 
 function ValueCard({ icon = "", title = "", text = "" }) {
   return (
