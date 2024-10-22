@@ -1,7 +1,9 @@
+import StayTuned from "../../ui/StayTuned";
+
 function Shop() {
   return (
     <main>
-      <div className="container">SHOP</div>
+      <StayTuned />
     </main>
   );
 }

@@ -13,7 +13,13 @@ function Promo({ setShowPromo }) {
             Shop Now
           </ButtonLink>
         </div>
-        <Button styles={styles.closeButton} onClick={() => setShowPromo(false)}>
+        <Button
+          styles={styles.closeButton}
+          onClick={() => {
+            localStorage.setItem("showPromo", false);
+            setShowPromo(false);
+          }}
+        >
           <img src="./icons/close.svg" alt="Close icon" />
         </Button>
       </div>

@@ -1,7 +1,12 @@
 import styles from "./Blog.module.scss";
+import StayTuned from "./StayTuned";
 
 function Blog() {
-  return <div>BLOG</div>;
+  return (
+    <main>
+      <StayTuned />
+    </main>
+  );
 }
 
 export default Blog;

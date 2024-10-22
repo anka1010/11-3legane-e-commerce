@@ -1,5 +1,11 @@
+import StayTuned from "../../ui/StayTuned";
+
 function Product() {
-  return <div>PRODUCT</div>;
+  return (
+    <main>
+      <StayTuned />
+    </main>
+  );
 }
 
 export default Product;

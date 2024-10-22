@@ -6,7 +6,6 @@ import NewArrivals from "./Home/NewArrivals";
 import Newsletter from "./Home/Newsletter";
 import Rooms from "./Home/Rooms";
 import Values from "./Home/Values";
-import Promo from "./Promo";
 
 function Home() {
   return (

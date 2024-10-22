@@ -1,5 +1,11 @@
+import StayTuned from "./StayTuned";
+
 function Contact() {
-  return <div>CONTACT US</div>;
+  return (
+    <main>
+      <StayTuned />
+    </main>
+  );
 }
 
 export default Contact;

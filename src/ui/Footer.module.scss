@@ -4,6 +4,8 @@
   height: 24.9rem;
   padding-top: 8rem;
 
+  margin-top: auto;
+
   @include phone {
     height: unset;
     padding-block: 4.8rem;

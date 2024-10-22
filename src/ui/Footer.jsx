@@ -13,7 +13,7 @@ function Footer() {
   ];
 
   return (
-    <footer className={styles.footer}>
+    <footer className={`footer ${styles.footer}`}>
       <div className="container-sm">
         <div className={styles.topRow}>
           <div className={styles.topLeft}>

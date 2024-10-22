@@ -15,6 +15,7 @@ function Newsletter() {
           type="text"
           placeholder="Email address"
           className={styles.input}
+          name="userEmail"
         />
         <Button styles={styles.button}>Signup</Button>
       </Form>
