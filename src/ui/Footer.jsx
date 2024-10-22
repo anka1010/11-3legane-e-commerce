@@ -30,12 +30,14 @@ function Footer() {
             <p className={styles.copyright}>
               Copyright © 2023 3legant. All rights reserved
             </p>
-            <Link to="privacy" className={styles.link}>
-              Privacy Policy
-            </Link>
-            <Link to="terms" className={styles.link}>
-              Terms of Use
-            </Link>
+            <div className={styles.links}>
+              <Link to="privacy" className={styles.link}>
+                Privacy Policy
+              </Link>
+              <Link to="terms" className={styles.link}>
+                Terms of Use
+              </Link>
+            </div>
           </div>
           <div className={styles.bottomRight}>
             <Link to={"https://www.instagram.com"}>
