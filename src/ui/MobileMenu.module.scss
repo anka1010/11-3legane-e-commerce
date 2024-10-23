@@ -4,8 +4,77 @@
   @include phone {
     display: block;
   }
+}
 
+.menuBtn {
   svg {
     stroke: var(--neutral-07);
   }
+}
+
+.menuBlock {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90vw;
+  height: 100vh;
+  z-index: 30;
+  background-color: #ffffff;
+
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2.4rem;
+
+  .topBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    .logo {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .bottomBlock {
+  }
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 29;
+  background-color: #000000;
+  opacity: 32%;
+
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+.menuItem {
+  height: 4rem;
+  border-bottom: 1px solid var(--neutral-03);
+}
+
+.link {
+  font-family: var(--font-family);
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.77;
+  color: var(--neutral-04);
+}
+
+.linkSm {
+  font-family: var(--font-family);
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--neutral-07);
 }
