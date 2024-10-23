@@ -49,6 +49,10 @@ const router = createHashRouter([
         path: "/cart",
         element: <Cart />,
       },
+      {
+        path: "/login",
+        element: <Home />,
+      },
     ],
   },
 ]);

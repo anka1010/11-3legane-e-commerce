@@ -51,28 +51,33 @@ function MobileMenu() {
             </Button>
           </div>
           <p>Search</p>
-          <div className={styles.menuItem}>
-            <Link to="/" className={styles.linkSm}>
-              Home
-            </Link>
-          </div>
-          <div className={styles.menuItem}>
-            <Link to="/" className={styles.linkSm}>
-              Shop
-            </Link>
-          </div>
-          <div className={styles.menuItem}>
-            <Link to="/" className={styles.linkSm}>
-              Product
-            </Link>
-          </div>
-          <div className={styles.menuItem}>
-            <Link to="/" className={styles.linkSm}>
-              Contuct Us
-            </Link>
+          <div onClick={() => setMenuOpen((menuOpen) => !menuOpen)}>
+            <div className={styles.menuItem}>
+              <Link to="/" className={styles.linkSm}>
+                Home
+              </Link>
+            </div>
+            <div className={styles.menuItem}>
+              <Link to="/shop" className={styles.linkSm}>
+                Shop
+              </Link>
+            </div>
+            <div className={styles.menuItem}>
+              <Link to="/product" className={styles.linkSm}>
+                Product
+              </Link>
+            </div>
+            <div className={styles.menuItem}>
+              <Link to="/contact" className={styles.linkSm}>
+                Contuct Us
+              </Link>
+            </div>
           </div>
         </div>
-        <div className={styles.bottomBlock}>
+        <div
+          className={styles.bottomBlock}
+          onClick={() => setMenuOpen((menuOpen) => !menuOpen)}
+        >
           <div className={styles.menuItem}>
             <Link to="/cart" className={styles.link}>
               Cart
@@ -86,7 +91,7 @@ function MobileMenu() {
             <WishlistIcon />
           </div>
 
-          <Link to="/signIn" className={`btn ${styles.singInBtn}`}>
+          <Link to="/login" className={`btn ${styles.singInBtn}`}>
             Sign In
           </Link>
 
