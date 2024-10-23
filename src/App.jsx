@@ -9,6 +9,7 @@ import Contact from "./ui/Contact";
 import StayTuned from "./ui/StayTuned";
 import Terms from "./ui/Terms";
 import Blog from "./ui/Blog";
+import Cart from "./features/cart/Cart";
 
 // const router = createBrowserRouter([
 const router = createHashRouter([
@@ -43,6 +44,10 @@ const router = createHashRouter([
       {
         path: "/blog",
         element: <Blog />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
     ],
   },

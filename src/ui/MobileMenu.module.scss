@@ -13,7 +13,7 @@
 }
 
 .menuBlock {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 90vw;
@@ -45,7 +45,7 @@
 }
 
 .background {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -61,6 +61,10 @@
 .menuItem {
   height: 4rem;
   border-bottom: 1px solid var(--neutral-03);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .link {
@@ -77,4 +81,21 @@
   font-weight: 500;
   line-height: 1.7;
   color: var(--neutral-07);
+}
+
+.singInBtn {
+  height: 5.2rem;
+  margin-top: 1.9rem;
+}
+
+.socials {
+  margin-top: 1.9rem;
+
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+
+  svg {
+    stroke: #000000;
+  }
 }

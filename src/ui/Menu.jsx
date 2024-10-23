@@ -1,5 +1,6 @@
 import Button from "./Button";
 import styles from "./Menu.module.scss";
+import CartIcon from "../features/cart/CartIcon";
 
 function Menu() {
   return (
@@ -14,12 +15,7 @@ function Menu() {
           <img src="./icons/user-circle.svg" alt="User icon" />
         </Button>
       </div>
-      <div className={styles.cart}>
-        <Button>
-          <img src="./icons/shopping-bag.svg" alt="Cart icon" />
-        </Button>
-        <p className={styles.cartItems}>2</p>
-      </div>
+      <CartIcon />
     </div>
   );
 }
