@@ -23,15 +23,15 @@ const router = createHashRouter([
       },
       {
         path: "/shop",
-        element: <Shop />,
+        element: <StayTuned />,
       },
       {
         path: "/product",
-        element: <Product />,
+        element: <StayTuned />,
       },
       {
         path: "/contact",
-        element: <Contact />,
+        element: <StayTuned />,
       },
       {
         path: "/privacy",
@@ -39,19 +39,19 @@ const router = createHashRouter([
       },
       {
         path: "/terms",
-        element: <Terms />,
+        element: <StayTuned />,
       },
       {
         path: "/blog",
-        element: <Blog />,
+        element: <StayTuned />,
       },
       {
         path: "/cart",
-        element: <Cart />,
+        element: <StayTuned />,
       },
       {
         path: "/login",
-        element: <Home />,
+        element: <StayTuned />,
       },
     ],
   },

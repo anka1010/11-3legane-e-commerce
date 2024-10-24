@@ -22,7 +22,7 @@
   background-color: #ffffff;
 
   transform: translate(-100%, 0);
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: var(--transform-animation);
 
   display: flex;
   flex-direction: column;
@@ -61,10 +61,11 @@
 .menuItem {
   height: 4rem;
   border-bottom: 1px solid var(--neutral-03);
+  margin-bottom: 1.6rem;
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .link {

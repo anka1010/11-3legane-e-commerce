@@ -1,20 +1,13 @@
-import Button from "./Button";
-import styles from "./Menu.module.scss";
+import Search from "./Search";
 import CartIcon from "../features/cart/CartIcon";
+import UserIcon from "../features/user/UserIcon";
+import styles from "./Menu.module.scss";
 
 function Menu() {
   return (
     <div className={styles.menu}>
-      <div className={styles.search}>
-        <Button>
-          <img src="./icons/search.svg" alt="Search icon" />
-        </Button>
-      </div>
-      <div className={styles.user}>
-        <Button>
-          <img src="./icons/user-circle.svg" alt="User icon" />
-        </Button>
-      </div>
+      <Search style="hiddenMobile" />
+      <UserIcon style="hiddenMobile" />
       <CartIcon />
     </div>
   );

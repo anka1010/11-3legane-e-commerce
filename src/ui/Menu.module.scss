@@ -4,15 +4,3 @@
   justify-content: space-between;
   gap: 1.6rem;
 }
-
-.search {
-  @include phone {
-    display: none;
-  }
-}
-
-.user {
-  @include phone {
-    display: none;
-  }
-}

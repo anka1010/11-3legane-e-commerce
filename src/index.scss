@@ -21,6 +21,9 @@
   --neutral-05: #343839;
   --neutral-06: #232627;
   --neutral-07: #141718;
+
+  /* ANIMATION */
+  --transform-animation: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 /* RESET */
@@ -133,6 +136,13 @@ label {
 
 legend {
   display: block;
+}
+
+/* UTILITIES */
+.hiddenMobile {
+  @include phone {
+    display: none;
+  }
 }
 
 /* LAYOUT */

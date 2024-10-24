@@ -5,6 +5,7 @@ import Logo from "./Logo";
 import CartIcon from "../features/cart/CartIcon";
 import WishlistIcon from "../features/wishlist/WishlistIcon";
 import styles from "./MobileMenu.module.scss";
+import Search from "./Search";
 
 function MobileMenu() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -50,7 +51,7 @@ function MobileMenu() {
               <img src="./icons/close.svg" alt="Close icon" />
             </Button>
           </div>
-          <p>Search</p>
+          <Search open={true} />
           <div onClick={() => setMenuOpen((menuOpen) => !menuOpen)}>
             <div className={styles.menuItem}>
               <Link to="/" className={styles.linkSm}>
