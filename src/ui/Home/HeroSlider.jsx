@@ -21,17 +21,19 @@ function HeroSlider() {
   }
 
   useEffect(() => {
-    fetch("github.com/anka1010/11-3legane-e-commerce/heroImages")
+    fetch(
+      "my-json-server.typicode.com/anka1010/11-3legane-e-commerce/heroImages"
+    )
       .then((res) => res.json())
       .then((data) => setSlides(data))
       .catch((err) => console.log(err));
 
-    setSlides([
-      { id: "1", src: "./img/heroSlider/slide-1.jpg" },
-      { id: "2", src: "./img/heroSlider/slide-2.jpg" },
-      { id: "3", src: "./img/heroSlider/slide-3.jpg" },
-      { id: "4", src: "./img/heroSlider/slide-4.jpg" },
-    ]);
+    // setSlides([
+    //   { id: "1", src: "./img/heroSlider/slide-1.jpg" },
+    //   { id: "2", src: "./img/heroSlider/slide-2.jpg" },
+    //   { id: "3", src: "./img/heroSlider/slide-3.jpg" },
+    //   { id: "4", src: "./img/heroSlider/slide-4.jpg" },
+    // ]);
   }, []);
 
   useEffect(() => {
