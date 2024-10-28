@@ -1,3 +1,4 @@
+import NewArrivalsSlider from "../../features/shop/NewArrivalsSlider";
 import ButtonLink from "../ButtonLink";
 import styles from "./NewArrivals.module.scss";
 
@@ -14,8 +15,7 @@ function NewArrivals() {
         </div>
 
         <div className={styles.carousel}>
-          {/* ??? */}
-          <img src="./img/carousel/carousel__TEST.jpg" alt="" />
+          <NewArrivalsSlider />
         </div>
       </section>
     </div>

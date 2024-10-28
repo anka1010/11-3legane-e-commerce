@@ -1,13 +1,14 @@
-TODO Search - компонент, настроить поиск
 TODO HeroSlider - на мобилке поменять картинки. Переделать на загрузку картинок из БД (фейковый сервер + RTK Query). тап - смахивание
 TODO New arrivals - получать от фейк сервера данные о каталоге, с фильтром по status: new / сверстать слайдер + тап
-TODO Newsletter - редирект на страницу со спасибо, через rout action
+TODO Cart - RTQ Query
+TODO Newsletter - редирект на страницу со спасибо, через rout action / React Form
+TODO Shop - возможно сверстать, данные через RTK Query (фейковый сервер)
+TODO Search - компонент, настроить поиск
+
+
 TODO Global state:
       - cart
       - user (аворизация)
-TODO Shop - возможно сверстать, данные через RTK Query (фейковый сервер)
-
-
 
 
 

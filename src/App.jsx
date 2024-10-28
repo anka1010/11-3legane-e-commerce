@@ -50,6 +50,14 @@ const router = createHashRouter([
         path: "/cart",
         element: <StayTuned />,
       },
+      {
+        path: "/articles",
+        element: <StayTuned />,
+      },
+      {
+        path: "/articles/:id",
+        element: <StayTuned />,
+      },
     ],
   },
   {

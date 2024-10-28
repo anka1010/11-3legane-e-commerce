@@ -185,4 +185,9 @@ legend {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  &-sm {
+    font-size: 1.6rem;
+    line-height: 1.75;
+  }
 }

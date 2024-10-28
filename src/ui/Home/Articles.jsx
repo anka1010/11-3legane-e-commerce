@@ -16,16 +16,19 @@ function Articles() {
             imgSrc="./img/articles/article1.jpg"
             imgAlt="Article preview"
             title="7 ways to decor your home"
+            articleId="1"
           />
           <ArticleCard
             imgSrc="./img/articles/article2.jpg"
             imgAlt="Article preview"
             title="Kitchen organization"
+            articleId="2"
           />
           <ArticleCard
             imgSrc="./img/articles/article3.jpg"
             imgAlt="Decor your bedroom"
             title="7 ways to decor your home"
+            articleId="3"
           />
         </div>
       </section>
