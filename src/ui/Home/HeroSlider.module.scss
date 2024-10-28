@@ -9,19 +9,11 @@
 
   display: flex;
 
-  picture {
-    width: 100%;
-  }
-
   img {
     width: 100%;
     height: 53.6rem;
     user-select: none;
     object-fit: cover;
-
-    @include tablet {
-      height: 4.5rem;
-    }
 
     @include phone {
       height: 30.4rem;

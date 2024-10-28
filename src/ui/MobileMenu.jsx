@@ -13,13 +13,16 @@ function MobileMenu() {
   const backgroundBlock = useRef();
 
   useEffect(() => {
-    if (menuOpen) {
-      menuBlock.current.style.transform = `translateX(0)`;
-      backgroundBlock.current.style.transform = `translateX(0)`;
-    } else {
-      menuBlock.current.style.transform = `translateX(-100%)`;
-      backgroundBlock.current.style.transform = `translateX(-100%)`;
-    }
+    const block = menuBlock.current;
+    const back = backgroundBlock.current;
+
+    block.style.transform = menuOpen ? `translateX(0)` : `translateX(-100%)`;
+    back.style.transform = menuOpen ? `translateX(0)` : `translateX(-100%)`;
+
+    return () => {
+      block.style.transform = `translateX(-100%)`;
+      back.style.transform = `translateX(-100%)`;
+    };
   }, [menuOpen]);
 
   return (

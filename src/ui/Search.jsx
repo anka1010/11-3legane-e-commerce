@@ -10,8 +10,13 @@ function Search({ open = false, style }) {
   const inputElement = useRef();
 
   useEffect(() => {
-    if (!showInput) inputElement.current.style.transform = "scaleX(0)";
-    else inputElement.current.style.transform = "scaleX(1)";
+    const input = inputElement.current;
+
+    input.style.transform = showInput ? "scaleX(1)" : "scaleX(0)";
+
+    return () => {
+      input.style.transform = "scaleX(0)";
+    };
   }, [showInput]);
 
   return (

@@ -10,6 +10,7 @@ import StayTuned from "./ui/StayTuned";
 import Terms from "./ui/Terms";
 import Blog from "./ui/Blog";
 import Cart from "./features/cart/Cart";
+import SignIn from "./features/user/SignIn";
 
 // const router = createBrowserRouter([
 const router = createHashRouter([
@@ -49,11 +50,12 @@ const router = createHashRouter([
         path: "/cart",
         element: <StayTuned />,
       },
-      {
-        path: "/login",
-        element: <StayTuned />,
-      },
     ],
+  },
+  {
+    path: "/login",
+    element: <SignIn />,
+    errorElement: <Error />,
   },
 ]);
 

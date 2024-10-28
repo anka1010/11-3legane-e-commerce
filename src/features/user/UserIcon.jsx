@@ -1,11 +1,11 @@
-import Button from "../../ui/Button";
+import { Link } from "react-router-dom";
 
 function UserIcon({ style }) {
   return (
     <div className={style ? style : ""}>
-      <Button>
+      <Link to="/login">
         <img src="./icons/user-circle.svg" alt="User icon" />
-      </Button>
+      </Link>
     </div>
   );
 }
