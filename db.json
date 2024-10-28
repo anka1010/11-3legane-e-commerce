@@ -1,8 +1,8 @@
 {
   "heroImages": [
-    { "id": "1", "src": "./img/hero-slider/slide-1.jpg" },
-    { "id": "2", "src": "./img/hero-slider/slide-2.jpg" },
-    { "id": "3", "src": "./img/hero-slider/slide-3.jpg" },
-    { "id": "4", "src": "./img/hero-slider/slide-4.jpg" }
+    { "id": "1", "src": "./img/heroSlider/slide-1.jpg" },
+    { "id": "2", "src": "./img/heroSlider/slide-2.jpg" },
+    { "id": "3", "src": "./img/heroSlider/slide-3.jpg" },
+    { "id": "4", "src": "./img/heroSlider/slide-4.jpg" }
   ]
 }

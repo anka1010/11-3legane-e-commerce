@@ -22,7 +22,7 @@ function HeroSlider() {
 
   useEffect(() => {
     fetch(
-      "my-json-server.typicode.com/anka1010/11-3legane-e-commerce/heroImages"
+      "https://my-json-server.typicode.com/anka1010/11-3legane-e-commerce/heroImages"
     )
       .then((res) => res.json())
       .then((data) => setSlides(data))
